@@ -149,6 +149,14 @@ collections:
     defaults:
       layout: post
     output: true
+  work_experience:
+    defaults:
+      layout: post
+    output: true
+  education:
+    defaults:
+      layout: post
+    output: true
   projects:
     output: true
 
@@ -190,7 +198,7 @@ exclude:
   - _pages/blog.md
   - _pages/repositories.md
   - _bibliography/
-  - _posts/
+  - _education/
   - purgecss.config.js
   - README.md
   - readme_preview/

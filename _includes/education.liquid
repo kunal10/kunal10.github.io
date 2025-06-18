@@ -1,0 +1,34 @@
+{% assign education = site.education | sort: 'date' | reverse %}
+{% if include.limit and site.education.limit %}
+  {% assign education_limit = site.education.limit %}
+{% else %}
+  {% assign education_limit = education | size %}
+{% endif %}
+
+{% if include.scrollable and site.education.scrollable %}
+  <div class="education-tiles scrollable">
+{% else %}
+  <div class="education-tiles">
+{% endif %}
+  {% for item in education limit: education_limit %}
+    <div class="education-item">
+      {% if item.inline %}
+        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+      {% else %}
+        <h3 class="education-title">
+          {% if item.url %}
+            <a href="{{ item.url | relative_url }}" class="education-link">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h3>
+        <div class="education-meta">
+          <span class="education-date">{{ item.date | date: "%B %-d, %Y" }}</span>
+        </div>
+        {% if item.description %}
+          <div class="education-description">{{ item.description }}</div>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

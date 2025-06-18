@@ -1,0 +1,34 @@
+{% assign work_experience = site.work_experience | sort: 'date' | reverse %}
+{% if include.limit and site.work_experience.limit %}
+  {% assign work_limit = site.work_experience.limit %}
+{% else %}
+  {% assign work_limit = work_experience | size %}
+{% endif %}
+
+{% if include.scrollable and site.work_experience.scrollable %}
+  <div class="work-experience-tiles scrollable">
+{% else %}
+  <div class="work-experience-tiles">
+{% endif %}
+  {% for item in work_experience limit: work_limit %}
+    <div class="work-experience-item">
+      {% if item.inline %}
+        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+      {% else %}
+        <h3 class="work-experience-title">
+          {% if item.url %}
+            <a href="{{ item.url | relative_url }}" class="work-experience-link">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h3>
+        <div class="work-experience-meta">
+          <span class="work-experience-date">{{ item.date | date: "%B %-d, %Y" }}</span>
+        </div>
+        {% if item.description %}
+          <div class="work-experience-description">{{ item.description }}</div>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

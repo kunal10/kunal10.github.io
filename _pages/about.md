@@ -16,15 +16,15 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+work_experience:
+  enabled: true # includes a list of work experience items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 items
+  limit: 5 # leave blank to include all the work experience items
 
-latest_posts:
+education:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true # adds a vertical scroll bar if there are more than 3 education items
+  limit: 3 # leave blank to include all education items
 ---
 
 Hi, thanks for stopping by! I'm currently working on Generative AI models for Education & Learning to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud. It's an exciting time to work in this rapidly evolving space.
