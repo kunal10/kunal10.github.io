@@ -5,11 +5,7 @@
   {% assign work_limit = work_experience | size %}
 {% endif %}
 
-{% if include.scrollable and site.work_experience.scrollable %}
-  <div class="work-experience-tiles scrollable">
-{% else %}
-  <div class="work-experience-tiles">
-{% endif %}
+<div class="work-experience-tiles{% if include.scrollable and site.work_experience.scrollable %} scrollable{% endif %}">
   {% for item in work_experience limit: work_limit %}
     <div class="work-experience-item">
       {% if item.inline %}

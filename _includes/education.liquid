@@ -5,11 +5,7 @@
   {% assign education_limit = education | size %}
 {% endif %}
 
-{% if include.scrollable and site.education.scrollable %}
-  <div class="education-tiles scrollable">
-{% else %}
-  <div class="education-tiles">
-{% endif %}
+<div class="education-tiles{% if include.scrollable and site.education.scrollable %} scrollable{% endif %}">
   {% for item in education limit: education_limit %}
     <div class="education-item">
       {% if item.inline %}
