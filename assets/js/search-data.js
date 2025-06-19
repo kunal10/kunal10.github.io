@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -116,22 +116,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "work_experience-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "work_experience-senior-software-engineer-caspar-ai-feb-2017-august-2019-worked-on-developing-and-optimizing-large-scale-machine-learning-models-for-natural-language-processing-tasks-contributed-to-open-source-projects-including-pytorch-and-hugging-face-transformers",
+          title: 'Senior Software Engineer, Caspar AI Feb 2017 - August 2019 Worked on developing...',
           description: "",
-          section: "Work_experience",},{id: "work_experience-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "Work_experience",handler: () => {
-              window.location.href = "/work_experience/announcement_2/";
-            },},{id: "work_experience-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "Work_experience",},{id: "work_experience-software-engineer-facebook-ai-research-june-2019-january-2022-worked-on-developing-and-optimizing-large-scale-machine-learning-models-for-natural-language-processing-tasks-contributed-to-open-source-projects-including-pytorch-and-hugging-face-transformers",
-          title: 'Software Engineer, Facebook AI Research June 2019 - January 2022 Worked on developing...',
-          description: "",
-          section: "Work_experience",},{id: "work_experience-senior-software-engineer-google-ai-february-2022-present-working-on-generative-ai-models-for-education-amp-amp-learning-to-enable-transformative-educational-experiences-across-google-surfaces-like-gemini-search-youtube-google-classroom-notebooklm-and-gcloud",
-          title: 'Senior Software Engineer, Google AI February 2022 - Present Working on Generative AI...',
+          section: "Work_experience",},{id: "work_experience-senior-software-engineer-google-ai-august-2019-present-working-on-generative-ai-models-for-education-amp-amp-learning-to-enable-transformative-educational-experiences-across-google-surfaces-like-gemini-search-youtube-google-classroom-notebooklm-and-gcloud",
+          title: 'Senior Software Engineer, Google AI August 2019 - Present Working on Generative AI...',
           description: "",
           section: "Work_experience",},{
         id: 'social-email',
