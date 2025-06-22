@@ -13,18 +13,19 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
+# Enable selected publications, social media links, and news
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-work_experience:
-  enabled: false # includes a list of work experience items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 items
-  limit: 5 # leave blank to include all the work experience items
-
-education:
+# Enable and configure announcements section
+announcements:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 education items
-  limit: 3 # leave blank to include all education items
+  limit: 5 # number of announcements to show
+
+# Enable and configure latest posts section
+latest_posts:
+  enabled: false
+  limit: 5 # number of latest posts to show
 ---
 
 Hi, thanks for stopping by! I'm currently working as ML Tech Lead in [Learning & Education](https://blog.google/outreach-initiatives/education/) group at Google to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud.
