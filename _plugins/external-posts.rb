@@ -52,9 +52,9 @@ module ExternalPosts
         slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
       end
 
-      path = site.in_source_dir("_education/#{slug}.md")
+      path = site.in_source_dir("_posts/#{slug}.md")
       doc = Jekyll::Document.new(
-        path, { :site => site, :collection => site.collections['education'] }
+        path, { :site => site, :collection => site.collections['posts'] }
       )
       doc.data['external_source'] = source_name
       doc.data['title'] = content[:title]
