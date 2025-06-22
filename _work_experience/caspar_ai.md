@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 **Senior Software Engineer, Caspar AI**  
-*Feb 2017 - August 2019*  
+_Feb 2017 - August 2019_  
 <br>
 Worked on developing and optimizing large-scale machine learning models for natural language processing tasks. Contributed to open-source projects including PyTorch and Hugging Face Transformers.
 <br><br>

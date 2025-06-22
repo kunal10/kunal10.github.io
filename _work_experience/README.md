@@ -10,8 +10,8 @@ inline: true
 related_posts: false
 ---
 
-**Job Title, Company**  
-*Month YYYY - Present*  
+**Job Title, Company**
+*Month YYYY - Present*
 Description of your role and responsibilities. You can use Markdown formatting here.
 ```
 
@@ -33,6 +33,6 @@ related_posts: false
 ---
 
 **Senior Software Engineer, Google AI**  
-*February 2022 - Present*  
+_February 2022 - Present_  
 Working on Generative AI models for Education & Learning to enable transformative educational experiences across Google surfaces like Gemini, Search, YouTube, Google Classroom, NotebookLM, and GCloud.
 ```

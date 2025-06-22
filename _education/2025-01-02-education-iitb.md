@@ -6,6 +6,6 @@ related_posts: false
 ---
 
 **Indian Institute of Technology Bombay (IITB)**  
-*Bachelor of Technology in Computer Science and Engineering*  
-*July 2013 - May 2017*  
+_Bachelor of Technology in Computer Science and Engineering_  
+_July 2013 - May 2017_  
 Graduated with Honors. Focused on Algorithms, Data Structures, and Machine Learning. Senior project on "Optimizing Graph Algorithms for Large-Scale Data Processing."

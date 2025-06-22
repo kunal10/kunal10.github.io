@@ -6,7 +6,7 @@ related_posts: false
 ---
 
 **Senior Software Engineer, Google AI**  
-*August 2019 - Present*  
+_August 2019 - Present_  
 <br>
 Working on Generative AI models for Education & Learning to enable transformative educational experiences across Google surfaces like Gemini, Search, YouTube, Google Classroom, NotebookLM, and GCloud.
 <br>

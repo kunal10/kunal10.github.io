@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -27,7 +27,7 @@ education:
   limit: 3 # leave blank to include all education items
 ---
 
-Hi, thanks for stopping by! I'm currently working as ML Tech Lead in [Learning & Education](https://blog.google/outreach-initiatives/education/) group at Google to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud. 
+Hi, thanks for stopping by! I'm currently working as ML Tech Lead in [Learning & Education](https://blog.google/outreach-initiatives/education/) group at Google to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud.
 
 My expertise is in transforming nascent ideas into production grade AI powered products and infrastructure. I thrive in navigating the entire product lifecycle, from identifying critical challenges to designing, building, and scaling innovative AI solutions from the ground up.
 

@@ -1,81 +1,66 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: OpenStax
+description: Tap into knowledge from trusted OpenStax textbooks in Gemini
+img: assets/img/OpenStax/thumbnail.png
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center mb-5">
+  <div class="col-12">
+    <div style="width: 100%; max-width: 800px; margin: 0 auto;">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe 
+          src="https://www.youtube.com/embed/9atqmsaJqxI" 
+          title="OpenStax & Gemini Integration" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+          allowfullscreen
+          class="shadow-lg rounded-3">
+        </iframe>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+OpenStax, in partnership with Google's Gemini, is revolutionizing open educational resources by integrating AI-powered learning experiences. This collaboration brings advanced AI tutoring capabilities to students worldwide, making high-quality education more accessible and personalized.
+
+## Announcements
+
+<div class="row g-4 mb-4">
+  <!-- OpenStax Partnership Announcement -->
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h5 card-title mb-3">Partnership Announcement</h3>
+        <p class="card-text mb-3">OpenStax partners with Google's Gemini to bring AI-powered learning to open educational resources.</p>
+        <div class="ratio ratio-16x9 mb-3">
+          <a href="https://openstax.org/blog/press-release-openstax-partners-with-googles-gemini-apps" target="_blank" rel="noopener">
+            <img src="{{ site.baseurl }}/assets/img/OpenStax/thumbnail.png" 
+                 alt="OpenStax & Gemini Partnership" 
+                 class="img-fluid rounded"
+                 style="object-fit: contain; width: 100%; height: 100%; background: #f8f9fa; padding: 1rem;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google I/O Announcement -->
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h5 card-title mb-3">Google I/O 2024</h3>
+        <p class="card-text mb-3">Learn with confidence using OpenStax textbooks in Gemini.</p>
+        <div class="ratio ratio-16x9 mb-3">
+          <a href="https://blog.google/products/classroom/google-ai-gemini-workspace-for-education/" target="_blank" rel="noopener">
+            <img src="{{ site.baseurl }}/assets/img/OpenStax/IOAnnouncement.webp" 
+                 alt="Google Workspace for Education with Gemini" 
+                 class="img-fluid rounded"
+                 style="object-fit: cover; width: 100%; height: 100%;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

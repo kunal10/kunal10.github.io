@@ -1,81 +1,114 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Learning Coach
+description: Personalized tutoring agent to enhance the learning experience.
+img: assets/img/LearningCoach/thumbnail.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center mb-5">
+  <div class="col-12">
+    <div style="width: 100%; max-width: 800px; margin: 0 auto;">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe 
+          src="https://www.youtube.com/embed/cvvWvutpB5o" 
+          title="Learning Coach Demo" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+          allowfullscreen
+          class="shadow-lg rounded-3">
+        </iframe>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+Learning Coach is an AI-powered personalized tutoring agent designed to enhance the learning experience for students of all ages. Built on top of LearnLM, it provides tailored educational support, explanations, and guidance to help students master complex concepts at their own pace.
+
+## Announcements
+
+<div class="row g-4 mb-4">
+  <!-- Official Announcement Tweet -->
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h5 card-title mb-3">Official Announcement</h3>
+        <div class="ratio ratio-16x9">
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">The new Learning coach Gem uses LearnLM to provide step-by-step study guidance, helping you build understanding instead of just giving you an answer. It will launch in Gemini in the coming months. <a href="https://twitter.com/hashtag/GoogleIO?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleIO</a> <a href="https://t.co/cjCQX9oRDO">pic.twitter.com/cjCQX9oRDO</a></p>&mdash; Google (@Google) <a href="https://twitter.com/Google/status/1790453969778528403?ref_src=twsrc%5Etfw">May 14, 2024</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google I/O Blog Post -->
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h5 card-title mb-3">Google I/O 2024 Announcement</h3>
+        <p class="card-text mb-3">Learn about Google's commitment to responsible AI development and how it shapes Learning Coach's approach to education.</p>
+        <div class="ratio ratio-16x9 mb-3">
+          <a href="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" target="_blank" rel="noopener">
+            <img src="{{ site.baseurl }}/assets/img/LearningCoach/thumbnail.png" 
+                 alt="Learning Coach" 
+                 class="img-fluid rounded"
+                 style="object-fit: contain; width: 100%; height: 100%; background: #f8f9fa; padding: 1rem;">
+          </a>
+        </div>
+        <a href="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" class="btn btn-outline-primary" target="_blank" rel="noopener">Read Full Article</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Success Stories
+
+<div class="row g-4">
+  <!-- Reddit Story -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">High School Success</h5>
+        <div style="max-height: 300px; overflow-y: auto;">
+          <blockquote class="reddit-embed-bq" style="height: 200px">
+            <a href="https://www.reddit.com/r/GeminiAI/comments/1ksdrj9/i_owe_my_high_school_diploma_to_gemini_learning/">I Owe My High School Diploma To Gemini Learning Coach</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Twitter Story 1 -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">University Achievement</h5>
+        <div style="max-height: 300px; overflow-y: auto;">
+          <blockquote class="twitter-tweet" data-lang="en" data-cards="hidden" data-conversation="none">
+            <a href="https://twitter.com/DomiRosario_/status/1916417274237329828"></a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Twitter Story 2 -->
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Lifelong Learning</h5>
+        <div style="max-height: 300px; overflow-y: auto;">
+          <blockquote class="twitter-tweet" data-lang="en" data-cards="hidden" data-conversation="none">
+            <a href="https://twitter.com/melbaldove/status/1928497877459832867"></a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Widget scripts -->
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>

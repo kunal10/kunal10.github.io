@@ -46,7 +46,7 @@
     {
       "name": "<strong>Google for Education</strong>",
       "position": "Senior Software Engineer",
-      "url": "https://google.com",
+      "url": "https://edu.google.com/",
       "startDate": "2023-05-01",
       "endDate": "Present",
       "summary": "Building <strong>LearnLM</strong> to enable transformative educational journeys on Gemini and other surfaces like Search, YouTube, and Classroom. <a href='https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/' class='res-link' target='_blank' rel='noopener noreferrer'>[Blog]</a> <a href='https://services.google.com/fh/files/misc/improving-gemini-for-education_v7.pdf' class='res-link' target='_blank' rel='noopener noreferrer'>[Paper]</a>",
@@ -57,15 +57,15 @@
       ]
     },
     {
-      "name": "<strong>Google AI</strong>",
+      "name": "<strong>Google Research</strong>",
       "position": "Software Engineer III",
-      "url": "https://google.com",
+      "url": "https://research.google/",
       "startDate": "2019-08-19",
       "endDate": "2023-04-30",
       "summary": "",
       "highlights": [
         "Drove multi-quarter effort to launch <strong>personalized recipe recommendations</strong> on Google Search improving user experience and positive metrics. <a href='https://blog.google/products/search/helping-you-find-and-control-personalized-results-in-search/' class='res-link' target='_blank' rel='noopener noreferrer'>[Blog]</a>",
-        "Led the development of <strong>AI infrastructure</strong> for RL training and interactive video applications, directly enabling the success of multiple 0 to 1 projects in Google AI new products team. <a href='https://github.com/google-research/seed_rl#seed' class='res-link' target='_blank' rel='noopener noreferrer'>[SeedRL]</a>, <a href='https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html' class='res-link' target='_blank' rel='noopener noreferrer'>[MoveNet]</a>"
+        "Led the development of <strong>AI infrastructure</strong> for RL training and interactive video applications, directly enabling the success of multiple 0 to 1 projects in Google Research new products team. <a href='https://github.com/google-research/seed_rl#seed' class='res-link' target='_blank' rel='noopener noreferrer'>[SeedRL]</a>, <a href='https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html' class='res-link' target='_blank' rel='noopener noreferrer'>[MoveNet]</a>"
       ]
     },
     {
@@ -83,18 +83,16 @@
     {
       "name": "<strong>Google</strong>",
       "position": "Machine Learning Intern",
-      "url": "https://google.com",
+      "url": "https://blog.google/products/gmail/",
       "startDate": "2016-05-31",
       "endDate": "2016-08-19",
       "summary": "",
-      "highlights": [
-        "Worked on ML models for Gmail Spam Classification."
-      ]
+      "highlights": ["Worked on ML models for Gmail Spam Classification."]
     },
     {
       "name": "<strong>Google</strong>",
       "position": "Software Engineer II",
-      "url": "https://google.com",
+      "url": "https://www.google.com/maps/about/#!/",
       "startDate": "2013-11-25",
       "endDate": "2015-07-17",
       "summary": "",
@@ -106,33 +104,32 @@
     {
       "name": "<strong>Flipkart</strong>",
       "position": "Machine Learning Intern",
-      "url": "https://flipkart.com",
+      "url": "https://blog.flipkart.tech/",
       "startDate": "2013-01-07",
       "endDate": "2013-06-14",
       "summary": "",
-      "highlights": [
-        "Built an intelligent system to automate the route mapping of shipments in Flipkart's logistics hub."
-      ]
+      "highlights": ["Built an intelligent system to automate the route mapping of shipments in Flipkart's logistics hub."]
     }
   ],
   "projects": [
     {
       "name": "Video Summarization System",
-      "summary": "Developed a system to automatically generate gif/short video summaries from longer videos using computer vision techniques.",
+      "summary": "",
       "highlights": [
-        "Created a system to generate video summaries [<a href='https://goo.gl/c4npIb'>Results</a>]",
-        "Implemented keyframe extraction and selection algorithms [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Report.pdf'>Paper</a>]",
-        "Designed a user interface for reviewing and customizing summaries [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Poster.pdf'>Poster</a>]"
+        "Developed a Deep Learning system to generate gif/short video summaries of most vital parts of the video. [<a href='https://tinyurl.com/mpzxbvsp' target='_blank' rel='noopener noreferrer'>Results</a>, <a href='https://github.com/kunal10/VideoSummarization/blob/master/Poster.pdf' target='_blank' rel='noopener noreferrer'>Poster</a>, <a href='https://github.com/kunal10/VideoSummarization/blob/master/Report.pdf' target='_blank' rel='noopener noreferrer'>Paper</a>, <a href='https://github.com/kunal10/VideoSummarization' target='_blank' rel='noopener noreferrer'>Code</a>]"
+        // "Created a system to generate video summaries [<a href='https://tinyurl.com/mpzxbvsp'>Results</a>]",
+        // "Implemented keyframe extraction and selection algorithms [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Report.pdf'>Paper</a>]",
+        // "Designed a user interface for reviewing and customizing summaries [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Poster.pdf'>Poster</a>]"
       ],
-      "startDate": "2016-01-01",
-      "endDate": "2016-06-30",
+      "startDate": "2016-03-15",
+      "endDate": "2016-05-10",
       "url": "https://github.com/kunal10/VideoSummarization"
     },
     {
       "name": "Visual Diary",
       "summary": "Created an application that generates a visual diary by analyzing and categorizing a user's daily activities through video analysis.",
       "highlights": [
-        "Developed activity recognition from video streams [<a href='https://goo.gl/qqNnni'>Slides</a>]",
+        "Developed activity recognition from video streams [<a href='https://tinyurl.com/289ja8wb'>Slides</a>]",
         "Built a timeline-based interface for reviewing daily activities",
         "Integrated with mobile devices for continuous data collection [<a href='https://github.com/saharshoza/VisualDiary/tree/master/code'>Code</a>]"
       ],
@@ -150,13 +147,13 @@
       ],
       "startDate": "2017-01-01",
       "endDate": "2017-06-30",
-      "url": "https://docs.google.com/presentation/d/1uZLMrqpijgmKcx3vtVYPiRjOAI9f6rS5E_VRHE3uttg/edit?usp=sharing"
+      "url": "https://tinyurl.com/35r63cxp"
     },
     {
       "name": "Toy Car Simulation",
       "summary": "Built a self-driving car simulation using Deep Reinforcement Learning with a Red Team approach.",
       "highlights": [
-        "Implemented and trained deep RL agents for autonomous driving [<a href='https://goo.gl/Ldp5rD'>Results</a>]",
+        "Implemented and trained deep RL agents for autonomous driving [<a href='https://tinyurl.com/4d58mjtx'>Slides & Results</a>]",
         "Developed adversarial testing scenarios to improve robustness [<a href='https://github.com/kunal10/RedTeam/blob/master/report.pdf'>Paper</a>]",
         "Created a modular simulation environment [<a href='https://github.com/kunal10/RedTeam'>Code</a>]"
       ],
@@ -177,38 +174,29 @@
       "url": "https://github.com/kunal10/paxos"
     }
   ],
-  // "certificates": [
+  // "publications": [
   //   {
-  //     "name": "Machine Learning",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
+  //     "name": "Utilizing context information of environment component regions for event/activity prediction",
+  //     "publisher": "US Patent 10,931,758",
+  //     "releaseDate": "2021-02-23",
+  //     "url": "https://patents.google.com/patent/US10931758",
+  //     "summary": "A patent for predicting events or activities using context information from environment component regions, with applications in smart home and IoT systems."
+  //   },
+  //   {
+  //     "name": "Utilizing context information of environment component regions for event/activity prediction",
+  //     "publisher": "US Patent App. 17/169,343",
+  //     "releaseDate": "2021-05-27",
+  //     "url": "https://patents.google.com/patent/US20210160326A1",
+  //     "summary": "A continuation patent application expanding on methods for event and activity prediction using environmental context information."
+  //   },
+  //   {
+  //     "name": "Bend-optimal orthogonal drawings of triconnected plane graphs",
+  //     "publisher": "AKCE International Journal of Graphs and Combinatorics",
+  //     "releaseDate": "2018-08-01",
+  //     "url": "https://www.sciencedirect.com/science/article/pii/S0972860015300463",
+  //     "summary": "Presents algorithms for creating orthogonal graph drawings with optimal number of bends for triconnected plane graphs, contributing to the field of graph drawing and visualization."
   //   }
   // ],
-  "publications": [
-    {
-      "name": "Utilizing context information of environment component regions for event/activity prediction",
-      "publisher": "US Patent 10,931,758",
-      "releaseDate": "2021-02-23",
-      "url": "https://patents.google.com/patent/US10931758",
-      "summary": "A patent for predicting events or activities using context information from environment component regions, with applications in smart home and IoT systems."
-    },
-    {
-      "name": "Utilizing context information of environment component regions for event/activity prediction",
-      "publisher": "US Patent App. 17/169,343",
-      "releaseDate": "2021-05-27",
-      "url": "https://patents.google.com/patent/US20210160326A1",
-      "summary": "A continuation patent application expanding on methods for event and activity prediction using environmental context information."
-    },
-    {
-      "name": "Bend-optimal orthogonal drawings of triconnected plane graphs",
-      "publisher": "AKCE International Journal of Graphs and Combinatorics",
-      "releaseDate": "2018-08-01",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0972860015300463",
-      "summary": "Presents algorithms for creating orthogonal graph drawings with optimal number of bends for triconnected plane graphs, contributing to the field of graph drawing and visualization."
-    }
-  ],
   "skills": [
     {
       "name": "Generative AI",
@@ -226,14 +214,7 @@
       "name": "ML Frameworks",
       "level": "Expert",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "Keras",
-        "Pandas",
-        "Scikit Learn",
-        "Scikit Image",
-        "NLTK"
-      ]
+      "keywords": ["PyTorch", "Keras", "Pandas", "Scikit Learn", "Scikit Image", "NLTK"]
     },
     {
       "name": "Tools and SDKs",
@@ -261,14 +242,7 @@
       "name": "Programming Languages",
       "level": "Proficient",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C",
-        "C++",
-        "Java",
-        "Bash",
-        "Matlab"
-      ]
+      "keywords": ["Python", "C", "C++", "Java", "Bash", "Matlab"]
     }
   ],
   "awards": [
@@ -288,8 +262,8 @@
     },
     {
       "title": "Regional Mathematics Olympiad",
-      "date": "2007-01-16",
-      "awarder": "Maharashtra Region",
+      "date": "2006-12-03",
+      "awarder": "Maharashtra & Goa Region",
       "url": "https://drive.google.com/open?id=0B8hL5unQaKL3S1BJMXQ0X0pEa1U",
       "summary": ""
     },
@@ -308,6 +282,15 @@
       "summary": ""
     }
   ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   }
+  // ],
   "languages": [
     {
       "language": "English",

@@ -10,9 +10,9 @@ inline: true
 related_posts: false
 ---
 
-**University Name**  
-*Degree in Field of Study*  
-*Month YYYY - Month YYYY*  
+**University Name**
+*Degree in Field of Study*
+*Month YYYY - Month YYYY*
 Description of your education, including any specializations, honors, or notable projects.
 ```
 
@@ -34,7 +34,7 @@ related_posts: false
 ---
 
 **Massachusetts Institute of Technology (MIT)**  
-*Master of Science in Computer Science*  
-*September 2019 - May 2021*  
+_Master of Science in Computer Science_  
+_September 2019 - May 2021_  
 Specialized in Artificial Intelligence and Machine Learning. Thesis on "Advancements in Neural Network Architectures for Natural Language Understanding."
 ```

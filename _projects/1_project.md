@@ -1,81 +1,109 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: LearnLM
+description: AI model specifically designed and fine-tuned for educational purposes.
+img: assets/img/LearnLM/thumbnail.jpg
 importance: 1
 category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Introduction
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+LearnLM is a family of AI models fine-tuned for learning and teaching purposes, designed to make learning more engaging, personalized, and effective.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/LearnLM/Overview.png" title="LearnLM Overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+<div class="row mt-4">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NTECA6ct55w" title="LearnLM Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7qpiqWN-W9c" title="LearnLM Features" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>
+
+<div class="row mt-4">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/LearnLM/PedagogyPrinciples.webp" title="Pedagogy Principles" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Announcements
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="card">
+            <a href="https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/" target="_blank">
+                <img src="{{ '/assets/img/LearnLM/thumbnail.jpg' | relative_url }}" class="card-img-top" alt="Google I/O 2024">
+                <div class="card-body">
+                    <h5 class="card-title">Google I/O 2024</h5>
+                    <p class="card-text">AI-powered learning experiences built with Gemini models</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="card">
+            <a href="https://blog.google/outreach-initiatives/education/google-gemini-learnlm-update/" target="_blank">
+                <img src="{{ '/assets/img/LearnLM/GoogleIO2025.webp' | relative_url }}" class="card-img-top" alt="Google I/O 2025">
+                <div class="card-body">
+                    <h5 class="card-title">Google I/O 2025</h5>
+                    <p class="card-text">The latest updates to LearnLM and Gemini for education</p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="mb-4"></div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+## Papers
+
+<div class="publications">
+    <div class="publication-item">
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://storage.googleapis.com/deepmind-media/LearnLM/LearnLM_paper.pdf" target="_blank">LearnLM: Building AI for Learning</a>
+        <p>Technical report on the development and architecture of LearnLM models.</p>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="publication-item">
+        <i class="fas fa-file-pdf"></i>
+        <a href="https://services.google.com/fh/files/misc/improving-gemini-for-education_v7.pdf" target="_blank">Improving Gemini for Education</a>
+        <p>Research on enhancing Gemini models for educational applications.</p>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<style>
+.publications {
+    margin-top: 1rem;
+}
+.publication-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #4285f4;
+    background-color: #f8f9fa;
+}
+.publication-item a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}
+.publication-item a:hover {
+    text-decoration: underline;
+}
+.publication-item p {
+    margin: 0.5rem 0 0 0;
+    color: #5f6368;
+}
+.fa-file-pdf {
+    color: #d93025;
+    margin-right: 0.5rem;
+}
+</style>
