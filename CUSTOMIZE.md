@@ -3,36 +3,6 @@
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
 <!--ts-->
-
-- [Customize](#customize)
-  - [Project structure](#project-structure)
-  - [Configuration](#configuration)
-  - [Modifying the CV information](#modifying-the-cv-information)
-  - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
-  - [Creating new pages](#creating-new-pages)
-  - [Creating new blog posts](#creating-new-blog-posts)
-  - [Creating new projects](#creating-new-projects)
-  - [Adding some news](#adding-some-news)
-  - [Adding Collections](#adding-collections)
-  - [Adding a new publication](#adding-a-new-publication)
-    - [Author annotation](#author-annotation)
-    - [Buttons (through custom bibtex keywords)](#buttons-through-custom-bibtex-keywords)
-  - [Changing theme color](#changing-theme-color)
-  - [Adding social media information](#adding-social-media-information)
-  - [Adding a newsletter](#adding-a-newsletter)
-  - [Removing content](#removing-content)
-    - [Removing the blog page](#removing-the-blog-page)
-    - [Removing the news section](#removing-the-news-section)
-    - [Removing the projects page](#removing-the-projects-page)
-    - [Removing the publications page](#removing-the-publications-page)
-    - [Removing the repositories page](#removing-the-repositories-page)
-  - [Adding Token for Lighthouse Badger](#adding-token-for-lighthouse-badger)
-    - [Personal Access Token (fine-grained) Permissions for Lighthouse Badger:](#personal-access-token-fine-grained-permissions-for-lighthouse-badger)
-  - [Customizing fonts, spacing, and more](#customizing-fonts-spacing-and-more)
-  - [Scheduled Posts](#scheduled-posts)
-    - [Name Format](#name-format)
-    - [Important Notes](#important-notes)
-
 <!--te-->
 
 ## Project structure
@@ -58,7 +28,7 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _news/: the news that will appear in the news section in the about page
 ├── 📂 _pages/: contains the pages of the website
 |   └── 📄 404.md: 404 page (page not found)
-├── 📂 _education/: contains the education entries
+├── 📂 _posts/: contains the blog posts
 ├── 📂 _projects/: contains the projects
 └── 📂 _sass/: contains the SASS files that define the style of the website
     ├── 📄 _base.scss: base style of the website
@@ -93,7 +63,7 @@ You can create new pages by adding new Markdown files in the [\_pages](_pages/) 
 
 ## Creating new blog posts
 
-To create a new education entry, you can add a new Markdown file in the [\_education](_education/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing education entry and modify it. Note that some entries have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
+To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory, which is the [default location for posts in Jekyll](https://jekyllrb.com/docs/posts/). The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
 
 If you want to create blog posts that are not ready to be published, but you want to track it with git, you can create a [\_drafts](https://jekyllrb.com/docs/posts/#drafts) directory and store them there.
 
@@ -202,7 +172,7 @@ Since this template have a lot of content, you may want to remove some of it. Th
 exclude:
   - _news/announcement_*.md
   - _pages/blog.md
-  - _education/
+  - _posts/
   - _projects/?_project.md
   - assets/jupyter/blog.ipynb
 ```
@@ -213,7 +183,7 @@ Here is a list of the main components that you may want to delete, and how to do
 
 To remove the blog, you have to:
 
-- delete [\_education](_education/) directory
+- delete [\_posts](_posts/) directory
 - delete blog page [\_pages/blog.md](_pages/blog.md)
 - remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
 - remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
@@ -305,7 +275,7 @@ In order to use this you need to save all of your "Completed" blog posts which a
 
 ### Name Format
 
-In this folder you need to store your file in the same format as you would in `_education/`
+In this folder you need to store your file in the same format as you would in `_posts/`
 
 > Example file name: `2024-08-26-This file will be uploaded on 26 August.md`
 
@@ -316,7 +286,7 @@ In this folder you need to store your file in the same format as you would in `_
 - It will only upload files which follow the pattern `yyyy-mm-dd-title.md`
   - This means that only markdown files will be posted
   - It means that any markdown which do not follow this pattern will not be posted
-- The scheduler works by moving posts from the `_scheduled/` directory to `_education/`, it will not post to folders like `_projects/` or `_work_experience/`
+- The scheduler works by moving posts from the `_scheduled/` directory to `_posts/`, it will not post to folders like `_projects/` or `_news/`
 - The date in the name of the file is the day that file will be uploaded on
   - `2024-08-27-file1.md` will not be posted before or after 27-August-2024 (Scheduler only works for posts scheduled on the present day)
   - `2025-08-27-file2.md` will be posted exactly on 27-August-2025
