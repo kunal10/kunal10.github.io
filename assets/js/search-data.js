@@ -30,21 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-cv",
-              title: "cv",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/cv/";
-              },
-            },{id: "dropdown-people",
-              title: "people",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/people/";
-              },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -116,13 +102,7 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "work_experience-senior-software-engineer-caspar-ai-feb-2017-august-2019-worked-on-developing-and-optimizing-large-scale-machine-learning-models-for-natural-language-processing-tasks-contributed-to-open-source-projects-including-pytorch-and-hugging-face-transformers",
-          title: 'Senior Software Engineer, Caspar AI Feb 2017 - August 2019 Worked on developing...',
-          description: "",
-          section: "Work_experience",},{id: "work_experience-senior-software-engineer-google-ai-august-2019-present-working-on-generative-ai-models-for-education-amp-amp-learning-to-enable-transformative-educational-experiences-across-google-surfaces-like-gemini-search-youtube-google-classroom-notebooklm-and-gcloud",
-          title: 'Senior Software Engineer, Google AI August 2019 - Present Working on Generative AI...',
-          description: "",
-          section: "Work_experience",},{
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
