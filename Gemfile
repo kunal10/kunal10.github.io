@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-# Match local Ruby version
+# Using Ruby 3.4.1 for local development and building
 ruby '~> 3.4.1'
 
-gem 'jekyll', '~> 4.3.3'  # Updated to work with Ruby 3.4.1
+gem 'jekyll', '~> 4.3.3'  # Version compatible with Ruby 3.3.x
 
 # jekyll-scholar and its dependencies
 gem 'citeproc-ruby', '~> 1.1.0'
