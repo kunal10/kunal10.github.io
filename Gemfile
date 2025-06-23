@@ -1,6 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+# Match local Ruby version
+ruby '~> 3.4.1'
+
+gem 'jekyll', '~> 4.3.3'  # Updated to work with Ruby 3.4.1
+
+# jekyll-scholar and its dependencies
+gem 'citeproc-ruby', '~> 1.1.0'
+gem 'csl-styles', '~> 1.0.1'
+gem 'i18n', '~> 1.8.0'  # Pinned to a version known to work with jekyll-scholar
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
