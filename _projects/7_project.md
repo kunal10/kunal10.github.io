@@ -5,7 +5,6 @@ description: with background image
 img: assets/img/4.jpg
 importance: 7
 category: fun
-related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
