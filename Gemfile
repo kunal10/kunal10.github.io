@@ -12,12 +12,12 @@ gem 'i18n', '~> 1.8.0'  # Pinned to a version known to work with jekyll-scholar
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+    gem 'jekyll-jupyter-notebook', '~> 0.0.6'  # Latest available version
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
     gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'

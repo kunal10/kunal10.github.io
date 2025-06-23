@@ -289,7 +289,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-get-json
   jekyll-imagemagick
-  jekyll-jupyter-notebook
+  jekyll-jupyter-notebook (~> 0.0.6)
   jekyll-link-attributes
   jekyll-minifier
   jekyll-paginate-v2
