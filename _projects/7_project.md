@@ -1,80 +1,137 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: Video Summarization
+description: Deep Learning system to generate a summary of the most vital parts of the video.
+img: /assets/img/VideoSummarization/thumbnail.png
 importance: 7
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In this project, we built a Deep Learning based system to generate a summary of the most vital parts of the video. We use a combination of LSTM (Long Short Term Memory) and CNN (Convolutional Neural Network) to accomplish the task. The approach is motivated by the success of Sequential Determinantal Point Process (DPP) for supervised video summarization and sequence to sequence video to text (s2vt) approach.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center mt-2">
+    <div class="col-12 col-lg-10">
+        <div class="pdf-container" style="position: relative; padding-bottom: 128.57%; height: 0; overflow: hidden;">
+            <iframe src="https://docs.google.com/viewer?url=https://github.com/kunal10/VideoSummarization/raw/master/Poster.pdf&embedded=true" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                    allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+## Technical Details
+
+<div class="row justify-content-center mt-4">
+    <div class="col-12 col-lg-10">
+        <div class="pdf-container" style="position: relative; padding-bottom: 128.57%; height: 0; overflow: hidden;">
+            <iframe src="https://docs.google.com/viewer?url=https://github.com/kunal10/VideoSummarization/raw/master/Report.pdf&embedded=true" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                    allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Results
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-1">
+    <div class="col-md-6 mt-1">
+        <h5 class="text-center">Original Video</h5>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/rk5q-3L5A80" 
+                    allowfullscreen
+                    loading="lazy">
+            </iframe>
+        </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md-6 mt-1">
+        <h5 class="text-center">Generated Summary</h5>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/Rp_pM3Q-jRs" 
+                    allowfullscreen
+                    loading="lazy">
+            </iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<div class="row mt-1">
+    <div class="col-md-6 mt-1">
+        <h5 class="text-center">Original Video</h5>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/-Pz0LfOoBYw" 
+                    allowfullscreen
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+    <div class="col-md-6 mt-1">
+        <h5 class="text-center">Generated Summary</h5>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/vUIhxMsOmYQ" 
+                    allowfullscreen
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<style>
+/* Ensure videos maintain aspect ratio on all devices */
+.embed-responsive-16by9 {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
 
-{% raw %}
+.embed-responsive-16by9::before {
+    display: block;
+    content: "";
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
-{% endraw %}
+/* Add some spacing between video pairs on mobile */
+@media (max-width: 767.98px) {
+    .mt-3 {
+        margin-top: 1rem !important;
+    }
+    .mt-5 {
+        margin-top: 2rem !important;
+    }
+}
+
+/* Ensure text is centered on all devices */
+.text-center {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+</style>
+
+## Conclusion
+
+Our LSTM-based approach effectively utilizes temporal information for video summarization. While not surpassing state-of-the-art results, our model outperformed most existing techniques even with random segmentation, indicating its strong ability to predict frame importance scores. We believe better segmentation and larger datasets could lead to state-of-the-art performance.
+
+## Try It Out
+
+The source code and instructions are available on [GitHub](https://github.com/kunal10/VideoSummarization).
