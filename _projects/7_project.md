@@ -21,6 +21,7 @@ In this project, we built a Deep Learning based system to generate a summary of 
         </div>
     </div>
 </div>
+<br>
 
 ## Technical Details
 
@@ -34,6 +35,7 @@ In this project, we built a Deep Learning based system to generate a summary of 
         </div>
     </div>
 </div>
+<br>
 
 ## Results
 
@@ -127,10 +129,12 @@ In this project, we built a Deep Learning based system to generate a summary of 
     font-weight: 500;
 }
 </style>
+<br>
 
 ## Conclusion
 
 Our LSTM-based approach effectively utilizes temporal information for video summarization. While not surpassing state-of-the-art results, our model outperformed most existing techniques even with random segmentation, indicating its strong ability to predict frame importance scores. We believe better segmentation and larger datasets could lead to state-of-the-art performance.
+<br><br>
 
 ## Try It Out
 

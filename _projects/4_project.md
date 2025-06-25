@@ -5,6 +5,7 @@ description: another without an image
 img:
 importance: 4
 category: work
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
