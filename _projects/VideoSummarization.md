@@ -4,7 +4,7 @@ title: Video Summarization
 description: Deep Learning system to generate a summary of the most vital parts of the video.
 img: /assets/img/VideoSummarization/thumbnail.png
 importance: 7
-category: fun
+category: academic
 ---
 
 ## Overview
@@ -41,7 +41,6 @@ In this project, we built a Deep Learning based system to generate a summary of 
 
 <div class="row mt-1">
     <div class="col-md-6 mt-1">
-        <h5 class="text-center">Original Video</h5>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/rk5q-3L5A80" 
@@ -49,9 +48,9 @@ In this project, we built a Deep Learning based system to generate a summary of 
                     loading="lazy">
             </iframe>
         </div>
+        <h5 class="text-center">Original Video</h5>
     </div>
     <div class="col-md-6 mt-1">
-        <h5 class="text-center">Generated Summary</h5>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/Rp_pM3Q-jRs" 
@@ -59,12 +58,12 @@ In this project, we built a Deep Learning based system to generate a summary of 
                     loading="lazy">
             </iframe>
         </div>
+        <h5 class="text-center">Generated Summary</h5>
     </div>
 </div>
 
 <div class="row mt-1">
     <div class="col-md-6 mt-1">
-        <h5 class="text-center">Original Video</h5>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/-Pz0LfOoBYw" 
@@ -72,9 +71,9 @@ In this project, we built a Deep Learning based system to generate a summary of 
                     loading="lazy">
             </iframe>
         </div>
+        <h5 class="text-center">Original Video</h5>
     </div>
     <div class="col-md-6 mt-1">
-        <h5 class="text-center">Generated Summary</h5>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" 
                     src="https://www.youtube.com/embed/vUIhxMsOmYQ" 
@@ -82,6 +81,7 @@ In this project, we built a Deep Learning based system to generate a summary of 
                     loading="lazy">
             </iframe>
         </div>
+        <h5 class="text-center">Generated Summary</h5>
     </div>
 </div>
 
