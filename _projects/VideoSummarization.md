@@ -2,7 +2,7 @@
 layout: page
 title: Video Summarization
 description: Deep Learning system to generate a summary of the most vital parts of the video.
-img: /assets/img/VideoSummarization/thumbnail.png
+img: assets/img/VideoSummarization/thumbnail.png
 importance: 7
 category: academic
 ---

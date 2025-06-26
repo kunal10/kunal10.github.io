@@ -2,7 +2,7 @@
 layout: page
 title: Adversarial RL with Red Team
 description: Developing resilient RL agents by co-training with an adversary.
-img: /assets/img/redteam/thumbnail.png # You'll need to add this image file
+img: assets/img/RedTeam/thumbnail.png # You'll need to add this image file
 importance: 8
 category: academic
 ---
@@ -45,15 +45,15 @@ This project demonstrate the effectiveness of this approach by applying it on tw
 
 <div class="row mt-3">
     <div class="col-md-4 mt-1">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/redteam/QLearningPolicy.png' | relative_url }}" alt="QLearning Policy" title="QLearning Policy">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/RedTeam/QLearningPolicy.png' | relative_url }}" alt="QLearning Policy" title="QLearning Policy">
         <h5 class="text-center">QLearning Policy</h5>
     </div>
     <div class="col-md-4 mt-1">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/redteam/RedTeamQLearningPolicy.png' | relative_url }}" alt="Red Team QLearning Policy" title="Red Team QLearning Policy">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/RedTeam/RedTeamQLearningPolicy.png' | relative_url }}" alt="Red Team QLearning Policy" title="Red Team QLearning Policy">
         <h5 class="text-center">QLearning w/ Red Team Policy</h5>
     </div>
     <div class="col-md-4 mt-1">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/redteam/RedTeamPolicy.png' | relative_url }}" alt="Red Team Policy" title="Red Team Policy">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/RedTeam/RedTeamPolicy.png' | relative_url }}" alt="Red Team Policy" title="Red Team Policy">
         <h5 class="text-center">Red Team Agent Policy</h5>
     </div>
 </div>
