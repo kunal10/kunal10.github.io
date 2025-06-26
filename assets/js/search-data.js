@@ -50,6 +50,11 @@ ninja.data = [{
           description: "Tap into knowledge from trusted OpenStax textbooks in Gemini",
           section: "Projects",handler: () => {
               window.location.href = "/projects/OpenStax/";
+            },},{id: "projects-adversarial-rl-with-red-team",
+          title: 'Adversarial RL with Red Team',
+          description: "Developing resilient RL agents by co-training with an adversary.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/RedTeam/";
             },},{id: "projects-video-summarization",
           title: 'Video Summarization',
           description: "Deep Learning system to generate a summary of the most vital parts of the video.",
