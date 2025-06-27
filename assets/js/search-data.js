@@ -47,9 +47,14 @@ ninja.data = [{
               window.location.href = "/projects/LearningCoach/";
             },},{id: "projects-openstax",
           title: 'OpenStax',
-          description: "Tap into knowledge from trusted OpenStax textbooks in Gemini",
+          description: "Tap into knowledge from trusted OpenStax textbooks in Gemini.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/OpenStax/";
+            },},{id: "projects-recipes-search",
+          title: 'Recipes Search',
+          description: "Personalized recipe recommendations on Google Search",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/RecipeRecommendations/";
             },},{id: "projects-adversarial-rl-with-red-team",
           title: 'Adversarial RL with Red Team',
           description: "Developing resilient RL agents by co-training with an adversary.",
