@@ -65,6 +65,11 @@ ninja.data = [{
           description: "Developing resilient RL agents by co-training with an adversary.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/RedTeam/";
+            },},{id: "projects-seedrl",
+          title: 'SeedRL',
+          description: "Backend API for training agents using SEED RL.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SeedRL/";
             },},{id: "projects-video-summarization",
           title: 'Video Summarization',
           description: "Deep Learning system to generate a summary of the most vital parts of the video.",
