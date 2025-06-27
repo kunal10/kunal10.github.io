@@ -35,6 +35,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-break-it-down",
+          title: 'Break It Down',
+          description: "Step by step breakdowns of complex topics in AI Overviews on Google Search",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/BreakItDown/";
             },},{id: "projects-learnlm",
           title: 'LearnLM',
           description: "AI model specifically designed and fine-tuned for educational purposes.",
