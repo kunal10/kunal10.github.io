@@ -1,0 +1,31 @@
+// Custom styles for project cards
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1.25rem;
+
+    .card-text {
+      margin-bottom: 1rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .row {
+      margin-top: auto;
+    }
+  }
+
+  .card-img-top {
+    width: 125%;
+    height: 200px; // Fixed height for all thumbnails
+    object-fit: fill; // This will ensure the image covers the area without distortion
+  }
+}
