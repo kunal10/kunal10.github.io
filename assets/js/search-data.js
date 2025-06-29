@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Deep Learning system to generate a summary of the most vital parts of the video.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/VideoSummarization/";
+            },},{id: "projects-visual-diary",
+          title: 'Visual Diary',
+          description: "A visual diary of user&#39;s daily activities through location-aware analysis of geo-tagged video streams.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/VisualDiary/";
             },},{
         id: 'social-email',
         title: 'email',
