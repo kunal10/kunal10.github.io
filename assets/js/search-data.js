@@ -55,8 +55,8 @@ ninja.data = [{
           description: "Tap into knowledge from trusted OpenStax textbooks in Gemini.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/OpenStax/";
-            },},{id: "projects-recipes-search",
-          title: 'Recipes Search',
+            },},{id: "projects-recipe-search",
+          title: 'Recipe Search',
           description: "Personalized recipe recommendations on Google Search",
           section: "Projects",handler: () => {
               window.location.href = "/projects/RecipeRecommendations/";
