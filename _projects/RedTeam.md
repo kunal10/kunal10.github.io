@@ -108,6 +108,6 @@ Our results demonstrate that Red Teams can be used for training **robust RL agen
 </div>
 <br>
 
-## Try It Out
+## Resources
 
-The source code and instructions are available on [GitHub](https://github.com/kunal10/RedTeam).
+- Source code and instructions are available on [GitHub](https://github.com/kunal10/RedTeam).

@@ -136,6 +136,6 @@ In this project, we built a Deep Learning based system to generate a summary of 
 Our LSTM-based approach effectively utilizes temporal information for video summarization. While not surpassing state-of-the-art results, our model outperformed most existing techniques even with random segmentation, indicating its strong ability to predict frame importance scores. We believe better segmentation and larger datasets could lead to state-of-the-art performance.
 <br><br>
 
-## Try It Out
+## Resources
 
-The source code and instructions are available on [GitHub](https://github.com/kunal10/VideoSummarization).
+- Source code and instructions available on [GitHub](https://github.com/kunal10/VideoSummarization).
