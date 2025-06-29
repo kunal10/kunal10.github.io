@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recipes Search
+title: Recipe Search
 description: Personalized recipe recommendations on Google Search
 img: assets/img/RecipeRecommendations/thumbnail.png
 importance: 5

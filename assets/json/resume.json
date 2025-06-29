@@ -117,9 +117,6 @@
       "summary": "",
       "highlights": [
         "Developed a Deep Learning system to generate gif/short video summaries of most vital parts of the video. [<a href='https://tinyurl.com/mpzxbvsp' target='_blank' rel='noopener noreferrer'>Results</a>, <a href='https://github.com/kunal10/VideoSummarization/blob/master/Poster.pdf' target='_blank' rel='noopener noreferrer'>Poster</a>, <a href='https://github.com/kunal10/VideoSummarization/blob/master/Report.pdf' target='_blank' rel='noopener noreferrer'>Paper</a>, <a href='https://github.com/kunal10/VideoSummarization' target='_blank' rel='noopener noreferrer'>Code</a>]"
-        // "Created a system to generate video summaries [<a href='https://tinyurl.com/mpzxbvsp'>Results</a>]",
-        // "Implemented keyframe extraction and selection algorithms [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Report.pdf'>Paper</a>]",
-        // "Designed a user interface for reviewing and customizing summaries [<a href='https://github.com/kunal10/VideoSummarization/blob/master/Poster.pdf'>Poster</a>]"
       ],
       "startDate": "2016-03-15",
       "endDate": "2016-05-10",
@@ -127,38 +124,32 @@
     },
     {
       "name": "Visual Diary",
-      "summary": "Created an application that generates a visual diary by analyzing and categorizing a user's daily activities through video analysis.",
+      "summary": "",
       "highlights": [
-        "Developed activity recognition from video streams [<a href='https://tinyurl.com/289ja8wb'>Slides</a>]",
-        "Built a timeline-based interface for reviewing daily activities",
-        "Integrated with mobile devices for continuous data collection [<a href='https://github.com/saharshoza/VisualDiary/tree/master/code'>Code</a>]"
+        "Created an application that generates a visual diary of user's daily activities through location aware analysis of geo-tagged video stream. [<a href='https://tinyurl.com/289ja8wb'>Slides</a>] [<a href='https://github.com/saharshoza/VisualDiary/tree/master/code'>Code</a>]"
       ],
-      "startDate": "2016-07-01",
-      "endDate": "2016-12-31",
+      "startDate": "2016-09-01",
+      "endDate": "2016-11-30",
       "url": "https://github.com/saharshoza/VisualDiary/tree/master/code"
     },
     {
       "name": "Video Description Generator",
-      "summary": "Developed a system that generates natural language descriptions of video content using Bidirectional LSTMs.",
+      "summary": "",
       "highlights": [
-        "Trained models on large video captioning datasets",
-        "Implemented attention mechanisms for better context understanding [<a href='https://docs.google.com/presentation/d/1uZLMrqpijgmKcx3vtVYPiRjOAI9f6rS5E_VRHE3uttg/edit?usp=sharing'>Slides & Results</a>]",
-        "Achieved state-of-the-art results on standard benchmarks"
+        "Developed a system that generates natural language descriptions of video content using Bidirectional LSTMs. [<a href='https://docs.google.com/presentation/d/1uZLMrqpijgmKcx3vtVYPiRjOAI9f6rS5E_VRHE3uttg/edit?usp=sharing'>Slides & Results</a>]"
       ],
-      "startDate": "2017-01-01",
-      "endDate": "2017-06-30",
+      "startDate": "2016-02-01",
+      "endDate": "2016-02-28",
       "url": "https://tinyurl.com/35r63cxp"
     },
     {
-      "name": "Toy Car Simulation",
-      "summary": "Built a self-driving car simulation using Deep Reinforcement Learning with a Red Team approach.",
+      "name": "Adversarial RL with Red Team",
+      "summary": "",
       "highlights": [
-        "Implemented and trained deep RL agents for autonomous driving [<a href='https://tinyurl.com/4d58mjtx'>Slides & Results</a>]",
-        "Developed adversarial testing scenarios to improve robustness [<a href='https://github.com/kunal10/RedTeam/blob/master/report.pdf'>Paper</a>]",
-        "Created a modular simulation environment [<a href='https://github.com/kunal10/RedTeam'>Code</a>]"
+        "Built robust RL agents by co-training them with an adversarial opponent in two toy environments: Windy Grid World and Toy Self Driving Car. [<a href='https://tinyurl.com/4d58mjtx'>Slides & Results</a>] [<a href='https://github.com/kunal10/RedTeam/blob/master/report.pdf'>Paper</a>] [<a href='https://github.com/kunal10/RedTeam'>Code</a>]"
       ],
-      "startDate": "2017-07-01",
-      "endDate": "2017-12-31",
+      "startDate": "2016-11-01",
+      "endDate": "2016-12-10",
       "url": "https://github.com/kunal10/RedTeam"
     },
     {
@@ -169,8 +160,8 @@
         "Built <a href='https://github.com/kunal10/3pc'>3 Phase Commit</a> protocol",
         "Developed <a href='https://github.com/kunal10/bayou'>BAYOU</a> weakly consistent storage system"
       ],
-      "startDate": "2014-01-01",
-      "endDate": "2015-12-31",
+      "startDate": "2015-09-01",
+      "endDate": "2015-11-30",
       "url": "https://github.com/kunal10/paxos"
     }
   ],
