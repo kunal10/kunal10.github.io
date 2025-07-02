@@ -28,40 +28,28 @@ Learning Coach is an AI-powered personalized tutoring agent designed to enhance 
 
 ## Announcements
 
-<div class="row g-4 mb-4">
-  <!-- Official Announcement Tweet -->
-  <div class="col-12 col-lg-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title mb-3">Official Announcement</h3>
-        <div class="ratio ratio-16x9">
-          <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr">The new Learning coach Gem uses LearnLM to provide step-by-step study guidance, helping you build understanding instead of just giving you an answer. It will launch in Gemini in the coming months. <a href="https://twitter.com/hashtag/GoogleIO?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleIO</a> <a href="https://t.co/cjCQX9oRDO">pic.twitter.com/cjCQX9oRDO</a></p>&mdash; Google (@Google) <a href="https://twitter.com/Google/status/1790453969778528403?ref_src=twsrc%5Etfw">May 14, 2024</a>
-          </blockquote>
+<div class="row">
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://twitter.com/Google/status/1790453969778528403" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none;">Official announcement <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 0;">
+            <blockquote class="twitter-tweet" style="margin: 0;">
+                <p lang="en" dir="ltr">The new Learning coach Gem uses LearnLM to provide step-by-step study guidance, helping you build understanding instead of just giving you an answer. It will launch in Gemini in the coming months. <a href="https://twitter.com/hashtag/GoogleIO?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleIO</a> <a href="https://t.co/cjCQX9oRDO">pic.twitter.com/cjCQX9oRDO</a></p>&mdash; Google (@Google) <a href="https://twitter.com/Google/status/1790453969778528403?ref_src=twsrc%5Etfw">May 14, 2024</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Google I/O Blog Post -->
-  <div class="col-12 col-lg-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title mb-3">Google I/O 2024 Announcement</h3>
-        <p class="card-text mb-3">Learn about Google's commitment to responsible AI development and how it shapes Learning Coach's approach to education.</p>
-        <div class="ratio ratio-16x9 mb-3">
-          <a href="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}/assets/img/LearningCoach/thumbnail.png" 
-                 alt="Learning Coach" 
-                 class="img-fluid rounded"
-                 style="object-fit: contain; width: 100%; height: 100%; background: #f8f9fa; padding: 1rem;">
-          </a>
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none;">Google I/O 2024 <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
-        <a href="https://blog.google/technology/ai/google-responsible-ai-commitment-update/#Learn-LM" class="btn btn-outline-primary" target="_blank" rel="noopener">Read Full Article</a>
-      </div>
     </div>
-  </div>
 </div>
+<br>
 
 ## Success Stories
 

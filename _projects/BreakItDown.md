@@ -24,8 +24,13 @@ category: work
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
-        <div class="embed-responsive" style="height: 600px;">
-            <iframe class="embed-responsive-item" src="https://blog.google/products/search/generative-ai-google-search-may-2024/" style="width: 100%; height: 100%; border: none;"></iframe>
+        <h4><a href="https://blog.google/products/search/generative-ai-google-search-may-2024/" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none; ">Google I/O 2024 <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://blog.google/products/search/generative-ai-google-search-may-2024/" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
     </div>
 </div>

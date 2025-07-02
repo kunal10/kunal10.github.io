@@ -39,26 +39,24 @@ LearnLM is a family of AI models fine-tuned for learning and teaching purposes, 
 ## Announcements
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card">
-            <a href="https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/" target="_blank">
-                <img src="{{ '/assets/img/LearnLM/thumbnail.jpg' | relative_url }}" class="card-img-top" alt="Google I/O 2024">
-                <div class="card-body">
-                    <h5 class="card-title">Google I/O 2024</h5>
-                    <p class="card-text">AI-powered learning experiences built with Gemini models</p>
-                </div>
-            </a>
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none; ">Google I/O 2024 <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card">
-            <a href="https://blog.google/outreach-initiatives/education/google-gemini-learnlm-update/" target="_blank">
-                <img src="{{ '/assets/img/LearnLM/GoogleIO2025.webp' | relative_url }}" class="card-img-top" alt="Google I/O 2025">
-                <div class="card-body">
-                    <h5 class="card-title">Google I/O 2025</h5>
-                    <p class="card-text">The latest updates to LearnLM and Gemini for education</p>
-                </div>
-            </a>
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://blog.google/outreach-initiatives/education/google-gemini-learnlm-update/" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none; ">Google I/O 2025 <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://blog.google/outreach-initiatives/education/google-gemini-learnlm-update/" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
     </div>
 </div>

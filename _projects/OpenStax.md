@@ -27,40 +27,25 @@ OpenStax, in partnership with Google's Gemini, is revolutionizing open education
 
 ## Announcements
 
-<div class="row g-4 mb-4">
-  <!-- OpenStax Partnership Announcement -->
-  <div class="col-12 col-lg-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title mb-3">Partnership Announcement</h3>
-        <p class="card-text mb-3">OpenStax partners with Google's Gemini to bring AI-powered learning to open educational resources.</p>
-        <div class="ratio ratio-16x9 mb-3">
-          <a href="https://openstax.org/blog/press-release-openstax-partners-with-googles-gemini-apps" target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}/assets/img/OpenStax/thumbnail.png" 
-                 alt="OpenStax & Gemini Partnership" 
-                 class="img-fluid rounded"
-                 style="object-fit: contain; width: 100%; height: 100%; background: #f8f9fa; padding: 1rem;">
-          </a>
+<div class="row">
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://openstax.org/blog/press-release-openstax-partners-with-googles-gemini-apps" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none;">OpenStax Gemini Partnership <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://openstax.org/blog/press-release-openstax-partners-with-googles-gemini-apps" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Google I/O Announcement -->
-  <div class="col-12 col-lg-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="h5 card-title mb-3">Google I/O 2024</h3>
-        <p class="card-text mb-3">Learn with confidence using OpenStax textbooks in Gemini.</p>
-        <div class="ratio ratio-16x9 mb-3">
-          <a href="https://blog.google/products/classroom/google-ai-gemini-workspace-for-education/" target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}/assets/img/OpenStax/IOAnnouncement.webp" 
-                 alt="Google Workspace for Education with Gemini" 
-                 class="img-fluid rounded"
-                 style="object-fit: cover; width: 100%; height: 100%;">
-          </a>
+    <div class="col-12 col-lg-6 mt-3">
+        <h4><a href="https://blog.google/products/classroom/google-ai-gemini-workspace-for-education/" target="_blank" style="color:rgb(50, 150, 225); text-decoration: none;">Google I/O 2024 <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a></h4>
+        <div style="height: 600px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px;">
+            <iframe 
+                class="embed-responsive-item" 
+                src="https://blog.google/products/classroom/google-ai-gemini-workspace-for-education/" 
+                style="width: 100%; height: 100%; border: none;">
+            </iframe>
         </div>
-      </div>
     </div>
-  </div>
 </div>
