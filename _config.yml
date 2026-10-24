@@ -321,6 +321,7 @@ filtered_bibtex_keywords:
     selected,
     slides,
     supp,
+    team,
     video,
     website,
   ]

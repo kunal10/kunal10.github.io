@@ -28,7 +28,7 @@ latest_posts:
   limit: 5 # number of latest posts to show
 ---
 
-Hi, thanks for stopping by! I'm currently working as ML Tech Lead in [Learning & Education](https://blog.google/outreach-initiatives/education/) group at Google to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud.
+Hi, thanks for stopping by! I'm currently working as Staff Software Engineer (ML Tech Lead) at [Google DeepMind](https://deepmind.google/) to enable transformative educational experiences across Google surfaces like Gemini, Search, Youtube, Google Classroom, NotebookLM and GCloud.
 
 My expertise is in transforming nascent ideas into production grade AI powered products and infrastructure. I thrive in navigating the entire product lifecycle, from identifying critical challenges to designing, building, and scaling innovative AI solutions from the ground up.
 
@@ -36,4 +36,4 @@ I have deep hands-on experience in key Generative AI paradigms, including RAG (R
 
 Previously I was an early team member (10th engineer) at [Caspar.ai](https://caspar.ai) and led several Computer Vision and ML Infrastructure projects taking initial prototype to deploying it at scale.
 
-Outside work, I am a passionate Cricket fan. I enjoy strategizing and am a recreational poker and chess player. I try to squeeze in some time to play tournaments whenever my baby daughter lets me. To keep myself fit, I enjoy running and weight training.
+Outside work, I am a passionate Cricket fan. I enjoy strategizing and am a recreational poker and chess player. I try to squeeze in some time to play tournaments whenever my toddler lets me. To keep myself fit, I enjoy running and weight training.

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Kunal Lad",
-    "title": "Senior Software Engineer",
+    "title": "Staff Software Engineer",
     "image": "",
     "email": "kunallad423@gmail.com",
     "phone": "(512) 758-9244",
@@ -44,9 +44,9 @@
   ],
   "work": [
     {
-      "name": "<strong>Google for Education</strong>",
-      "position": "Senior Software Engineer",
-      "url": "https://edu.google.com/",
+      "name": "<strong>Google DeepMind</strong>",
+      "position": "Staff Software Engineer",
+      "url": "https://deepmind.google/",
       "startDate": "2023-05-01",
       "endDate": "Present",
       "summary": "Building <strong>LearnLM</strong> to enable transformative educational journeys on Gemini and other surfaces like Search, YouTube, and Classroom. <a href='https://blog.google/outreach-initiatives/education/google-learnlm-gemini-generative-ai/' class='res-link' target='_blank' rel='noopener noreferrer'>[Blog]</a> <a href='https://services.google.com/fh/files/misc/improving-gemini-for-education_v7.pdf' class='res-link' target='_blank' rel='noopener noreferrer'>[Paper]</a>",
@@ -58,7 +58,7 @@
     },
     {
       "name": "<strong>Google Research</strong>",
-      "position": "Software Engineer III",
+      "position": "Senior Software Engineer",
       "url": "https://research.google/",
       "startDate": "2019-08-19",
       "endDate": "2023-04-30",
