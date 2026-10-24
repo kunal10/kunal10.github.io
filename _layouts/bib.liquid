@@ -51,6 +51,8 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {%- comment -%} Team papers: set `team` in the bib entry and list only your own name in `author`. {%- endcomment -%}
+      {%- if entry.team %}{{ entry.team }} (including {% endif -%}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -136,6 +138,7 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+      {%- if entry.team %}){% endif %}
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
