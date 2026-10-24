@@ -3,7 +3,7 @@ layout: page
 title: Recipe Search
 description: Personalized recipe recommendations on Google Search
 img: assets/img/RecipeRecommendations/thumbnail.png
-importance: 5
+importance: 6
 category: work
 published: true
 ---

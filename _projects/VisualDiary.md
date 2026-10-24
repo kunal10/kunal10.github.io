@@ -3,7 +3,7 @@ layout: page
 title: Visual Diary
 description: A visual diary of user's daily activities through location-aware analysis of geo-tagged video streams.
 img: assets/img/VisualDiary/thumbnail.png
-importance: 9
+importance: 10
 category: academic
 published: true
 ---

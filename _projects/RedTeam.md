@@ -3,7 +3,7 @@ layout: page
 title: Adversarial RL with Red Team
 description: Developing resilient RL agents by co-training with an adversary.
 img: assets/img/RedTeam/thumbnail.png # You'll need to add this image file
-importance: 8
+importance: 9
 category: academic
 ---
 
