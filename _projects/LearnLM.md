@@ -3,7 +3,7 @@ layout: page
 title: LearnLM
 description: AI model specifically designed and fine-tuned for educational purposes.
 img: assets/img/LearnLM/thumbnail.jpg
-importance: 1
+importance: 2
 category: work
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: SeedRL
 description: Backend API for training agents using SEED RL.
 img: assets/img/SeedRL/thumbnail.png
-importance: 6
+importance: 7
 category: work
 published: true
 ---

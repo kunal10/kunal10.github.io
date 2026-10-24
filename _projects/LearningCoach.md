@@ -3,7 +3,7 @@ layout: page
 title: Learning Coach
 description: Personalized tutoring agent to enhance the learning experience.
 img: assets/img/LearningCoach/thumbnail.png
-importance: 2
+importance: 3
 category: work
 giscus_comments: false
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Break It Down
 description: Step by step breakdowns of complex topics in AI Overviews on Google Search
 img: assets/img/BreakItDown/thumbnail.png
-importance: 4
+importance: 5
 category: work
 ---
 

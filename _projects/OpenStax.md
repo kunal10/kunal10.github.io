@@ -3,7 +3,7 @@ layout: page
 title: OpenStax
 description: Tap into knowledge from trusted OpenStax textbooks in Gemini.
 img: assets/img/OpenStax/thumbnail.png
-importance: 3
+importance: 4
 category: work
 ---
 
