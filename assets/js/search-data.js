@@ -40,6 +40,11 @@ ninja.data = [{
           description: "Step by step breakdowns of complex topics in AI Overviews on Google Search",
           section: "Projects",handler: () => {
               window.location.href = "/projects/BreakItDown/";
+            },},{id: "projects-interactive-simulations",
+          title: 'Interactive Simulations',
+          description: "Interactive visualizations and simulations in the Gemini app",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/InteractiveSimulations/";
             },},{id: "projects-learnlm",
           title: 'LearnLM',
           description: "AI model specifically designed and fine-tuned for educational purposes.",
