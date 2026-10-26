@@ -106,7 +106,9 @@ originals, with 404s in the console) and both must run PurgeCSS. Don't delete ei
 
 Performance-related flags in `_config.yml`: `enable_math` (MathJax) and the Altmetric/Dimensions entries in `enable_publication_badges`
 are off because nothing uses them and their scripts load on every page. Turn them back on only if a page needs LaTeX or a bib entry
-gets an `altmetric=`/`dimensions=` field. Other workflows (broken links, axe, lighthouse, CodeQL, Docker images, TOC updates) are inherited
+gets an `altmetric=`/`dimensions=` field. `third_party_libraries.download: true` makes the build download every CDN library
+(jQuery, MDB, Masonry, Google Fonts, ...) into `assets/libs/` (gitignored) and serve it from this site; MDB's stylesheet is linked
+from the local `assets/css/mdb.min.css` instead so PurgeCSS trims it. Other workflows (broken links, axe, lighthouse, CodeQL, Docker images, TOC updates) are inherited
 from the theme.
 
 ## Conventions
