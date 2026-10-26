@@ -3,12 +3,8 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<link
-  rel="stylesheet"
-  href="{{ site.third_party_libraries.mdb.url.css }}"
-  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
->
+<!-- Local copy of MDB 4.20.0 (same file as the CDN one), so PurgeCSS strips the unused rules at build time -->
+<link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}">
 
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->
@@ -23,18 +19,12 @@
 
 <!-- Fonts & Icons -->
 <!--
-  These stylesheets are not needed for the first paint, so they load without blocking rendering:
-  media="print" downloads them at low priority, and onload switches them on. The noscript block keeps them working without JS.
+  Loaded normally (not deferred): they are small and served from this site (third_party_libraries.download), and loading
+  them late made the text and social icons shift after the first paint.
 -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.google_fonts.url.fonts }}" media="print" onload="this.media='all'">
-<noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-  <link rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
-  <link rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
-</noscript>
+<link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
 
 <!-- Code Syntax Highlighting -->
 <link
