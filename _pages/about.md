@@ -7,6 +7,8 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
+  image_width: 600 # intrinsic pixel size of the image, used to reserve space while it loads
+  image_height: 600
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>

@@ -1,3 +1,9 @@
+// Footer links: underline them so they are distinguishable from the surrounding text without relying on color (WCAG 1.4.1).
+footer.fixed-bottom a,
+footer.sticky-bottom a {
+  text-decoration: underline;
+}
+
 // Custom styles for project cards
 .card {
   display: flex;

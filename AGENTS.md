@@ -99,8 +99,14 @@ Pushing to `main` deploys the site, so don't push without the owner's go-ahead. 
 - `.github/workflows/pages.yml` builds with jekyll-scholar and deploys through GitHub Pages Actions.
 - `.github/workflows/deploy.yml` is the upstream al-folio workflow. It builds and pushes to the `gh-pages` branch.
 
-Which one actually serves the site depends on the repo's Pages setting (Actions vs. branch). Don't delete or rewrite either one
-without checking that setting first. Other workflows (broken links, axe, lighthouse, CodeQL, Docker images, TOC updates) are inherited
+The live site is served by `pages.yml` (the Pages source is GitHub Actions; the `gh-pages` branch is not what visitors get). The PR
+check named `deploy` runs `deploy.yml`, so a passing PR build does not exercise `pages.yml`. Keep the two build steps in sync: both
+must install ImageMagick (otherwise the responsive `-480/-800/-1400.webp` images are missing and every page falls back to the full-size
+originals, with 404s in the console) and both must run PurgeCSS. Don't delete either workflow without checking the Pages setting.
+
+Performance-related flags in `_config.yml`: `enable_math` (MathJax) and the Altmetric/Dimensions entries in `enable_publication_badges`
+are off because nothing uses them and their scripts load on every page. Turn them back on only if a page needs LaTeX or a bib entry
+gets an `altmetric=`/`dimensions=` field. Other workflows (broken links, axe, lighthouse, CodeQL, Docker images, TOC updates) are inherited
 from the theme.
 
 ## Conventions
