@@ -38,7 +38,8 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ruby-dev build-essential python3-pip
+          # imagemagick generates the responsive .webp images that figure.liquid references
+          sudo apt-get install -y ruby-dev build-essential python3-pip imagemagick
           python -m pip install --upgrade pip
           pip install jupyter nbconvert
           export PATH="$HOME/.local/bin:$PATH"
@@ -54,6 +55,13 @@ jobs:
           bundle exec jekyll build \
           --verbose \
           --destination ./_site
+
+      # Same step as deploy.yml: strips unused rules from the site's own CSS
+      # (main.css alone is ~600 KB before purging).
+      - name: Purge unused CSS
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
